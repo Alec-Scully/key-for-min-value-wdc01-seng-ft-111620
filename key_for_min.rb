@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     temp_min = value
     if temp_min <= min 
       min = temp_min
-      puts key
+      #return key
     end 
   end 
 end
