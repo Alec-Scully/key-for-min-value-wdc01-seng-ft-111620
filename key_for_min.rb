@@ -5,6 +5,7 @@ require 'pry'
 
 def key_for_min_value(name_hash)
   min = nil
+  temp_key = nil
   name_hash.each do |key, value|
     temp_min = value
     if min == nil
@@ -13,7 +14,9 @@ def key_for_min_value(name_hash)
     
     if temp_min <= min 
       min = temp_min
+      temp_key = key
     end 
+    return temp_key
   end 
 end
 
