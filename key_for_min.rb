@@ -4,8 +4,7 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-  i=0
-  
+  name_has[0]
   name_hash.each do |key, value|
     
     temp_min = value[i]
