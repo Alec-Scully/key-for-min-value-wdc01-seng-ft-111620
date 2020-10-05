@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     temp_min = value
     min = value
     if temp_min.empty?
-      return nil
+      return 'nil'
     elsif temp_min <= min 
       min = temp_min
       return key
